@@ -27,7 +27,7 @@ wss.on("connection", (ws) => {
 });
 
 app.get("/", (_req, res) => {
-  res.send("WebSocket server running: chat-server-aryan");
+  res.send("WebSocket server running: aryanChatServer");
 });
 
 server.listen(10000, () => {
